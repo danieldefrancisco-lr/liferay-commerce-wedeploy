@@ -1,0 +1,12 @@
+{
+ "cpu": 3,
+ "id": "commerce",
+ "volumes": {
+ "liferaydata": "/opt/liferay/data"
+},
+ "memory": 4096,
+ "env": {
+    "LIFERAY_REDIRECT_PERIOD_URL_PERIOD_SECURITY_PERIOD_MODE": "domain",
+    "LIFERAY_WEB_PERIOD_SERVER_PERIOD_PROTOCOL": "https"
+  }
+  }
